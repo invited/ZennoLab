@@ -1,0 +1,1166 @@
+
+header{
+  margin-bottom: 170px;
+
+  @include clearfix;
+
+  .header__lang{
+	position: absolute;
+    top: 5px;
+    right: 0;
+
+
+    .lang{
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+
+      img.lang-pic {
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      span{
+        opacity: 0.5;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        border-bottom: 1px dotted white;
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+
+
+    span.down {
+      margin-left: 8px;
+      cursor: pointer;
+    }
+
+
+  }
+
+  .header__logo,
+  .header__nav,
+  .header__links{
+    float: left;
+  }
+
+  .header__logo{
+    width: 11.5%;
+  }
+
+  .header__nav{
+    width: 52.5%;
+    margin-top: -10px;
+
+    ul.nav__list{
+      display: table;
+      width: 100%;
+    }
+
+    li.nav__item{
+      display: table-cell;
+      text-align: center;
+
+      a.nav__link{
+        color: white;
+        font-family: $Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid transparent;
+        display: inline-block;
+        padding-top: 55px;
+        @include transition(all 1s);
+
+        &:hover{
+          border-bottom: 1px solid transparent;
+          border-top: 3px solid $green-color;
+          @include transition(all 1s);
+        }
+      }
+    }
+  }
+  .header__links{
+    padding-top: 50px;
+    width: 36%;
+    text-align: right;
+
+    a.support__link,
+    a.forum__link,
+    a.personal__link{
+      margin-left: 28px;
+
+      img.link-pic{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 7px;
+      }
+      span{
+        opacity: 0.5;
+        color: white;
+        font-family: $Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+        &:hover{
+          border-bottom: 1px solid transparent;
+        }
+      }
+
+    }
+  }
+}
+
+.header-menu{
+  margin-bottom: 120px;
+
+  @include clearfix;
+
+  .header__lang{
+    position: absolute;
+    top: 5px;
+    right: 0;
+
+
+    .lang{
+      display: inline-block;
+      cursor: pointer;
+      text-decoration: none;
+
+      img.lang-pic {
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      span{
+        opacity: 0.5;
+        color: white;
+        font-family: "Roboto", sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        border-bottom: 1px dotted white;
+        vertical-align: middle;
+        display: inline-block;
+      }
+    }
+
+
+    span.down {
+      margin-left: 8px;
+      cursor: pointer;
+    }
+
+
+  }
+
+  .header__logo,
+  .header__nav,
+  .header__links{
+    float: left;
+  }
+
+  .header__logo{
+    width: 11.5%;
+  }
+
+  .header__nav{
+    width: 52.5%;
+    margin-top: -10px;
+
+    ul.nav__list{
+      display: table;
+      width: 100%;
+    }
+
+    li.nav__item{
+      display: table-cell;
+      text-align: center;
+
+      a.nav__link{
+        color: white;
+        font-family: $Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        border-top: 3px solid transparent;
+        display: inline-block;
+        padding-top: 55px;
+        @include transition(all 1s);
+
+        &:hover{
+          border-bottom: 1px solid transparent;
+          border-top: 3px solid $green-color;
+          @include transition(all 1s);
+        }
+      }
+    }
+  }
+  .header__links{
+    padding-top: 50px;
+    width: 36%;
+    text-align: right;
+
+    a.support__link,
+    a.forum__link,
+    a.personal__link{
+      margin-left: 28px;
+
+      img.link-pic{
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 7px;
+      }
+      span{
+        opacity: 0.5;
+        color: white;
+        font-family: $Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        display: inline-block;
+        text-decoration: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+        &:hover{
+          border-bottom: 1px solid transparent;
+        }
+      }
+
+    }
+  }
+}
+
+.top__section{
+  background: url("../img/header__bg.png") 50% 0 no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 10px;
+
+  h1{
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: $Roboto;
+    font-size: 54px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 265px;
+    margin-bottom: 0;
+
+    span{
+      display: block;
+      font-size: 40px;
+      font-weight: 100;
+      line-height: 70px;
+    }
+  }
+
+  .down__el{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: $green-color;
+    padding: 14px;
+  }
+}
+
+.top__section2{
+  background: url("../img/header2__bg.png") 50% 0 no-repeat;
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-top: 10px;
+
+  figure{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h1{
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.15);
+    color: white;
+    font-family: $Roboto;
+    font-size: 54px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+
+    span{
+      display: block;
+      font-size: 40px;
+      font-weight: 100;
+      line-height: 70px;
+    }
+  }
+
+  .btn__wrap {
+    text-align: center;
+    margin-bottom: 50px;
+
+    .btn-more{
+      margin-bottom: 30px;
+    }
+
+    span{
+      display: block;
+      text-align: center;
+      height: 34px;
+      color: white;
+      font-family: $Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 20px;
+    }
+  }
+
+  .down__el{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    background-color: $green-color;
+    padding: 14px;
+  }
+}
+
+.menu__panel{
+  background-color: #f9f9f9;
+  height: auto;
+  margin-bottom: 80px;
+
+  .menu__panel-link{
+    display: inline-block;
+    width: 24%;
+    text-decoration: none;
+    padding: 50px 5px;
+    background-color: transparent;
+    border-bottom: 3px solid transparent;
+    @include transition(all 0.6s);
+
+    &:hover{
+      background-color: $bg-color-title;
+      border-bottom: 3px solid $green-color;
+      @include transition(all 0.6s);
+    }
+
+    span.menu__panel-pic {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 15px;
+    }
+
+    span.menu__panel-text {
+      display: inline-block;
+      vertical-align: middle;
+
+      span.heading {
+        color: $dark-color;
+        font-family: $Roboto;
+        font-size: 20px;
+        font-weight: 400;
+        display: block;
+        margin-bottom: 5px;
+      }
+      p{
+        color: $dark-color;
+        font-family: $Roboto;
+        font-size: 16px;
+        font-weight: 300;
+      }
+    }
+  }
+}
+.block__one{
+  width: 100%;
+  margin: 0 auto 70px;
+  height: auto;
+  padding: 0 0 30px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  @include  clearfix;
+
+  .left__info{
+    float: left;
+    width: 40%;
+
+    .heading{
+      color: $dark-color;
+      font-family: $Roboto;
+      font-size: 40px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 60px;
+    }
+    .heading-pic{
+      vertical-align: top;
+      margin-right: 25px;
+    }
+    p{
+      color: rgb(72, 72, 72);
+      font-family: $Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    .btn-more{
+      margin-bottom: 90px;
+    }
+  }
+  .right__image{
+    float: left;
+    width: 55%;
+    margin-top: -50px;
+
+    figure.base{
+      margin: 0 auto;
+      position: relative;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 120px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 157px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        left: 170px;
+      }
+    }
+    figure.plane{
+      margin: 0 auto;
+      position: absolute;
+      top: 50px;
+      right:-55px;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 250px;
+        bottom: 200px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 170px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 251px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 251px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 288px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        right: 300px;
+      }
+    }
+
+  }
+}
+
+.block__two{
+  width: 100%;
+  margin: 0 auto 70px;
+  height: auto;
+  padding: 0 0 30px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  @include  clearfix;
+
+  .left__info{
+    float: left;
+    width: 40%;
+
+    .heading{
+      color: $dark-color;
+      font-family: $Roboto;
+      font-size: 40px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 60px;
+    }
+    .heading-pic{
+      vertical-align: top;
+      margin-right: 25px;
+    }
+    p{
+      color: rgb(72, 72, 72);
+      font-family: $Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    .btn-more{
+      margin-bottom: 90px;
+    }
+  }
+  .right__image{
+    float: left;
+    width: 55%;
+    margin-top: -50px;
+
+    figure.base{
+      margin: 0 auto;
+      position: relative;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 120px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 157px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        left: 170px;
+      }
+    }
+    figure.plane{
+      margin: 0 auto;
+      position: absolute;
+      top: 50px;
+      right:-55px;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 130px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: #cccccc;
+        position: absolute;
+        right: 131px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 131px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 169px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        right: 190px;
+      }
+    }
+
+  }
+}
+
+.block__three{
+  width: 100%;
+  margin: 0 auto 70px;
+  height: auto;
+  padding: 0 0 30px;
+  border-bottom: 1px solid rgb(230, 230, 230);
+
+  @include  clearfix;
+
+  .left__info{
+    float: left;
+    width: 40%;
+
+    .heading{
+      color: $dark-color;
+      font-family: $Roboto;
+      font-size: 40px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 60px;
+    }
+    .heading-pic{
+      margin-right: 25px;
+    }
+    p{
+      color: rgb(72, 72, 72);
+      font-family: $Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    .btn-more{
+      margin-bottom: 90px;
+    }
+  }
+  .right__image{
+    float: left;
+    width: 55%;
+    margin-top: -50px;
+
+    figure.base{
+      margin: 0 auto;
+      position: relative;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 120px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 121px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 157px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        left: 170px;
+      }
+    }
+    figure.plane{
+      margin: 0 auto;
+      position: absolute;
+      top: 75px;
+      right:-55px;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 130px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: #cccccc;
+        position: absolute;
+        right: 131px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 131px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 169px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        right: 190px;
+      }
+    }
+
+  }
+}
+
+.block__four{
+  width: 100%;
+  margin: 0 auto 30px;
+  height: auto;
+  padding: 0;
+
+  @include  clearfix;
+
+  .left__info{
+    float: left;
+    width: 40%;
+
+    .heading{
+      color: $dark-color;
+      font-family: $Roboto;
+      font-size: 40px;
+      font-weight: 300;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 60px;
+    }
+    .heading-pic{
+      margin-right: 25px;
+    }
+    p{
+      color: rgb(72, 72, 72);
+      font-family: $Roboto;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 25px;
+      margin-bottom: 70px;
+    }
+    .btn-more{
+      margin-bottom: 90px;
+    }
+  }
+  .right__image{
+    float: left;
+    width: 55%;
+    margin-top: -50px;
+
+    figure.base{
+      margin: 0 auto;
+      position: relative;
+      right: -189px;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: white;
+        position: absolute;
+        right: 230px;
+        bottom: 150px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 116px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 231px;
+        bottom: 35px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        right: 231px;
+        bottom: 35px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        right: 268px;
+        bottom: 34px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 22px;
+        right: 280px;
+      }
+    }
+    figure.plane{
+      margin: 0 auto;
+      position: absolute;
+      top: 75px;
+      right: 205px;
+
+      .point__start{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 90px;
+        bottom: 160px;
+      }
+      .vertical__line{
+        width: 1px;
+        height: 130px;
+        background-color: #cccccc;
+        position: absolute;
+        left: 91px;
+        bottom: 30px;
+      }
+      .horizont__line{
+        width: 38px;
+        height: 1px;
+        background-color: rgb(204, 204, 204);
+        position: absolute;
+        left: 91px;
+        bottom: 30px;
+      }
+      .point__finish{
+        width: 3px;
+        height: 3px;
+        border-radius: 50%;
+        background-color: $dark-color;
+        position: absolute;
+        left: 130px;
+        bottom: 29px;
+      }
+      figcaption{
+        color: rgb(157, 157, 157);
+        font-family: $Roboto;
+        font-size: 12px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 25px;
+        position: absolute;
+        bottom: 18px;
+        left: 150px;
+      }
+    }
+
+  }
+}
+
+.advantages{
+  background-color: $green-color;
+  padding: 60px 0;
+
+  .item{
+    width: 33%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-family: $Roboto;
+    font-size: 88px;
+    font-weight: 900;
+    border-right: 1px solid rgb(48, 163, 68);
+
+    span{
+      display: block;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 40px;
+    }
+  }
+  .item:first-child{
+    border-left: 1px solid rgb(48, 163, 68);
+  }
+}
+.news{
+  padding: 90px 0 120px;
+
+  @include clearfix;
+
+  .heading{
+    color: $dark-color;
+    font-family: $Roboto;
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 50px;
+  }
+
+  .news__item{
+    width: 24%;
+    float: left;
+    margin-right: 15px;
+
+    .news__title{
+      color: $stack-color;
+      font-family: $Roboto;
+      font-size: 18px;
+      font-weight: 700;
+      text-decoration: none;
+      border-bottom: 1px solid $stack-color;
+      display: inline-block;
+      margin-bottom: 25px;
+      cursor: pointer;
+
+      &:hover{
+        border-bottom: 1px solid transparent;
+      }
+
+    }
+    p{
+      color: rgb(72, 72, 72);
+      font-family: $Roboto;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 22px;
+      margin-bottom: 20px;
+    }
+    span{
+      color: rgb(157, 157, 157);
+      font-family: $Roboto;
+      font-size: 12px;
+      font-weight: 300;
+      line-height: 25px;
+    }
+  }
+
+  .news__item:last-child{
+    margin-right: 0;
+  }
+}
+footer{
+  width: 100%;
+  max-width: 1920px;
+  height: 240px;
+  margin: -240px auto;
+  position: relative;
+  background-color: $dark-color;
+
+  .top__footer{
+    margin-bottom: 50px;
+
+    @include clearfix;
+
+    .footer__nav{
+      width: 50%;
+      float: left;
+
+      ul.nav__list{
+        display: table;
+        width: 100%;
+      }
+
+      li.nav__item{
+        display: table-cell;
+        text-align: center;
+
+        a.nav__link{
+          color: white;
+          font-family: $Roboto;
+          font-size: 18px;
+          font-weight: 300;
+          text-decoration: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+          display: inline-block;
+          padding-top: 65px;
+          cursor: pointer;
+
+          &:hover{
+            border-bottom: 1px solid transparent;
+          }
+        }
+      }
+    }
+    .footer__links{
+      width: 50%;
+      float: left;
+      padding-top: 65px;
+      text-align: right;
+
+      a.support__link,
+      a.ref__link,
+      a.forum__link,
+      a.personal__link{
+        margin-left: 28px;
+        cursor: pointer;
+
+        img.link-pic{
+          display: inline-block;
+          vertical-align: middle;
+          margin-right: 7px;
+        }
+        span{
+          opacity: 0.5;
+          color: white;
+          font-family: $Roboto;
+          font-size: 14px;
+          font-weight: 300;
+          display: inline-block;
+          text-decoration: none;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+
+          &:hover{
+            border-bottom: 1px solid transparent;
+          }
+        }
+
+      }
+    }
+  }
+
+  .bottom__footer{
+    @include clearfix;
+
+    .copyright{
+      float: left;
+      img{
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 15px;
+      }
+      .copy__text{
+        opacity: 0.5;
+        color: white;
+        font-family: $Roboto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+    .social__link{
+      float: right;
+      margin-top: 20px;
+
+      a{
+        margin-left: 20px;
+      }
+    }
+  }
+}

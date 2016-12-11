@@ -1,0 +1,21 @@
+.btn-more{
+  background-color: $stack-color;
+  padding: 14px 45px;
+  box-sizing: border-box;
+  color: white;
+  font-family: $Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  border-bottom:2px solid $border-color;
+  position: relative;
+  top: 0;
+  left: 0;
+
+  &:hover{
+    background-color: $border-color;
+    top: 1px;
+  }
+}

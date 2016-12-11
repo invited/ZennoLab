@@ -1,0 +1,118 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: $Roboto;
+    font-size: 16px;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.container{
+    max-width: 1180px;
+    width: 100%;
+  	height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 auto;
+    position: relative;
+
+  	@include clearfix;
+}
+
+.hidden {
+    display: none;
+}
+
+.empty {
+    height: 240px;
+}
+
+h1, h2, h3, h4, h5, h5 {
+    margin: 0;
+}
+
+ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+    outline: medium none;
+}
+
+input {
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    outline: none;
+    border: none 0;
+}
+
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.just_no {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
+
+
